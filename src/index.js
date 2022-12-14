@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import bootstrap from 'bootstrap/dist/css/bootstrap.css'
 import { BrowserRouter } from 'react-router-dom'
+import { init } from './services/logger'
 
+init()
 
 ReactDOM.render(
   <BrowserRouter>
